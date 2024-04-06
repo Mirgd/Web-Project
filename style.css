@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
 
-root{--sage:#9CAFAA ;   --lightgray:#a8aaa3; --peach:#EFBC9B; --beige:#FBF3D5; --blue:#124076;  --green:#7F9F80;  --yellow:#F9E897;   --orange:#FFC374;
+:root{--sage:#9CAFAA ;   --lightgray:#a8aaa3; --peach:#EFBC9B; --beige:#FBF3D5; --blue:#124076;  --green:#7F9F80;  --yellow:#F9E897;   --orange:#FFC374;
 }
 body{background-color: #e5e3dc;
   }
 
+/*main page*/
 *{
     font-family: "Poppins", sans-serif;
     margin: 0;
@@ -18,6 +19,7 @@ body{background-color: #e5e3dc;
 header{
     background-color:#9CAFAA;
     width: 100%;
+    height: 65px;
     position: fixed;
     z-index: 999;
     position: fixed;
@@ -148,8 +150,6 @@ section.main{padding: 250px 110px;
         font-size: 2.2em;
         font-weight: 800;
         margin-bottom: 30px;
-        
-
     }
     .content{
         display: flex;
@@ -214,9 +214,60 @@ section.main{padding: 250px 110px;
     .footer-title.name {
         color: #18559a;
     }
+
+
+
+
+/*core courses page*/
+section.body{padding: 200px 100px;
+        padding-bottom: 170px;
+    }
+
+    h1{
+        width: 100%;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        color:#000000;
+        font-size: 3.0em;
+        font-weight: 800;
+    }
+    .buttons{
+        text-align: center;
+        margin: 80px 0;
+    }
+
+    .buttons a{
+        color:#124076;
+        background-color: #9ead9e;
+        border-radius: 5px;
+        border: 2px solid black;
+        margin: 30px 30px;
+        padding: 20px 70px;
+        font-size: 18px;
+        width: 38%;
+        text-decoration: none;
+        justify-content: center;
+        flex-direction: row;
+        display: inline-block;
+    }
+    .buttons a:link{
+        
+        color:#124076;
+        background-color: #9ead9e;
+    }
+
+    .buttons a:hover{
+        color: white;
+        background-color: #124076;
+    }
+    
+
+
+/*Page sizes*/
     @media(max-width:1023px){/* اي شي اصغر من 1023 يتغير حجم الشاشه*/
         header{
-            padding: 12px 20ox;
+            padding: 12px 20px;
         }
         .navigation{
             padding-left:10px;
@@ -244,6 +295,17 @@ section.main{padding: 250px 110px;
         .dropdown-content a {
             font-size: 14px;
         }
+        section.body{
+            padding: 100px 15px;
+        }
+        section.body h1{
+            font-size: 2.5em;
+        }
+        .button a{
+            font-size: 1em;
+            align-items: center;
+        }
+        
     }
         @media (max-width:600px){
             body{
@@ -261,6 +323,10 @@ section.main{padding: 250px 110px;
             .dropdown-content a {
                 font-size: 12px;
             }
+            .button a{
+                font-size: 1em;
+                align-items: center;
+            }
         }
         @media (max-width){
             body{
@@ -270,4 +336,4 @@ section.main{padding: 250px 110px;
                 font-size: 0.6em;
             }
     }
-   
+    

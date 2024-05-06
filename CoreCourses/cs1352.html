@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Computer Interaction /CS 1352 - CS.guide</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">CS.guide</a>
+</header>
+
+<section class="body">
+    <div class="course-info">
+        <h2>Human Computer Interaction /CS 1352</h2>
+        
+    </div>
+    <div class="buttons">
+        <div class="button-container">
+            <a href="#" class="btn" onclick="showContent('exams')">Exams</a>
+            <div id="examsContent" class="content" style="display: none;">
+                <h3>Exams Content</h3>
+                <p>Content for Exams...</p>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="#" class="btn" onclick="showContent('assignments')">Assignments</a>
+            <div id="assignmentsContent" class="content" style="display: none;">
+                <h3>Assignments Content</h3>
+                <p>Content for Assignments...</p>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="#" class="btn" onclick="showContent('slides')">Slides</a>
+            <div id="slidesContent" class="content" style="display: none;">
+                <h3>Slides Content</h3>
+                <p>Content for Slides...</p>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="#" class="btn" onclick="showContent('books')">Books</a>
+            <div id="booksContent" class="content" style="display: none;">
+                <h3>Books Content</h3>
+                <p>Content for Books...</p>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="#" class="btn" onclick="showContent('tutorials')">Tutorials</a>
+            <div id="tutorialsContent" class="content" style="display: none;">
+                <h3>Tutorials Content</h3>
+                <p>Content for Tutorials...</p>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="#" class="btn" onclick="showContent('explanations')">Explanations</a>
+            <div id="explanationsContent" class="content" style="display: none;">
+                <h3>Explanations Content</h3>
+                <p>Content for Explanations...</p>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="#" class="btn" onclick="showContent('project')">Project</a>
+            <div id="projectContent" class="content" style="display: none;">
+                <h3>Project Content</h3>
+                <p>Content for Project...</p>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="#" class="btn" onclick="showContent('summary')">Summary</a>
+            <div id="summaryContent" class="content" style="display: none;">
+                <h3>Summary Content</h3>
+                <p>Content for Summary...</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p class="footer-title">Copyrights @<span>A,w,m</span></p>
+    <p>Contact us</p>
+</footer>
+
+<script>
+    function showContent(id) {
+        var content = document.getElementById(id + "Content");
+        if (content.style.display === "none") {
+            content.style.display = "block";
+        } else {
+            content.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>

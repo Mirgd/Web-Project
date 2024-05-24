@@ -90,12 +90,11 @@ Improving and developing the infrastructure and back side techniques of the site
 
 ## resources:
 <div>
-  #### [DEMO]
+  #### DEMO:
+  
 
-  #### [ Presentation ] (https://www.canva.com/design/DAGGIQzjDys/ey8neBTpd_OdcTJMAmuauQ/view?utm_content=DAGGIQzjDys&utm_campaign=designshare&utm_medium=link&utm_source=editor) -
-
-
-</div>
+ #### Presentation:
+  (https://www.canva.com/design/DAGGIQzjDys/ey8neBTpd_OdcTJMAmuauQ/view?utm_content=DAGGIQzjDys&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 
 ## Work Team:

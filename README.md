@@ -53,8 +53,16 @@ In addition to educational materials, the website also offers various university
 The main goal of CS GUIDE is to provide a stimulating and integrated educational environment that assists students in the Computer Science department at the Imam Muhammad bin Saud University in achieving academic success and advancing their skills and knowledge in the field of Computer Science.
 
 ## Some screenshots of the CS GUIDE website:
+  
+
 
 <div>
+   <img src = "https://github.com/Mirgd/Web-Project/assets/124620584/e4984f90-9eaa-4e9b-a82a-2eee1b552a1e" width="500">
+<img src = "https://github.com/Mirgd/Web-Project/assets/124620584/40a2a8be-5493-4a08-8250-6f964678cb0c" width="500">
+  <img src = "https://github.com/Mirgd/Web-Project/assets/124620584/d1bb65d7-d77d-4156-876e-69961120fded" width ="500">
+  <img src = "https://github.com/Mirgd/Web-Project/assets/124620584/dae8f6ed-3d16-4893-b223-c9517469397c" width ="500">
+  <img src = "https://github.com/Mirgd/Web-Project/assets/124620584/260940fc-179d-48a9-a668-24805e4aebc9" width ="500">
+  <img src = "https://github.com/Mirgd/Web-Project/assets/124620584/eb7f69b0-bb5c-4c60-adb8-6dc088be9616" width ="500">
   
 </div>
 

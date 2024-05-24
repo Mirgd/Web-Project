@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+root {
+    --sage: #9CAFAA;
+    --lightgray: #a8aaa3;
+    --peach: #EFBC9B;
+    --beige: #FBF3D5;
+    --blue: #124076;
+    --green: #7F9F80;
+    --yellow: #F9E897;
+    --orange: #FFC374;
+}
+
+body {
+    background-color: #e5e3dc;
+    text-align: center;
+}
+
+/*main page*/
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    direction: initial;
+
+}
+
+header {
+    background-color: #9CAFAA;
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    z-index: 999;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px;
+    padding-left: 80px;
+
+
+
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 2.3em;
+    color: #124076;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 30px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.fa-solid {
+    font-size: 30px;
+    color: black;
+    padding: 7px;
+}
+
+.fa-solid:hover {
+    color: #18559a;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    padding-left: 30px;
+}
+
+li a:hover {
+    color: #18559a;
+}
+
+li a:active {
+    color: #18559a;
+}
+
+
+.dropdown-content {
+    height: 650px;
+    overflow: auto;
+    width: 400px;
+    display: none;
+    position: absolute;
+    background-color: #d0d1d0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+    text-align: right;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #d0d1d0;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #d0d1d0;
+    background-color: #18559a;
+    color: #D6DAC8;
+}
+
+.dropdown-content h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    text-indent: 7px;
+    background-color: #6a7673;
+    padding: 13px;
+}
+
+
+
+
+section.main {
+    padding: 250px 110px;
+    padding-bottom: 170px;
+
+}
+
+.main {
+    width: 100%;
+    min-width: n100vh;
+    display: flex;
+    align-items: center;
+    background-color: #e2e5da;
+    background: url(images/background.png) no-repeat;
+    background-position: 960px 100px;
+
+}
+
+.main p {
+    font-size: 1.1em;
+    margin: 10px;
+    color: #18559a;
+    text-align: left;
+    padding-top: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+section.cards {
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #124076;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+
+}
+
+.card {
+    background-color: #d0d1d0;
+    width: 21.25em;
+    box-shadow: 0 5px rbga(1 1 1/ 15%);
+    margin-right: 23px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 15px;
+    transition: 0.7s ease;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+
+
+}
+
+.course {
+    text-decoration-line: none;
+}
+
+.card p {
+    padding-top: 15px;
+    margin-left: 12px;
+    color: black;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.card h2 {
+    background-color: #9CAFAA;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: black;
+    color: #e5e3dc;
+    padding: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title.name {
+    color: #18559a;
+}
+
+
+
+
+/*core courses page*/
+section.body {
+    padding: 200px 100px;
+    padding-bottom: 170px;
+}
+
+h1 {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 3.0em;
+    font-weight: 800;
+}
+
+.buttons {
+    text-align: center;
+    margin: 80px;
+}
+
+.buttons a {
+    color: #124076;
+    background-color: #9ead9e;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 30px 30px;
+    padding: 20px 70px;
+    font-size: 18px;
+    width: 38%;
+    text-decoration: none;
+    justify-content: center;
+    flex-direction: row;
+    display: inline-block;
+}
+
+.buttons a:link {
+
+    color: #124076;
+    background-color: #9ead9e;
+}
+
+.buttons a:hover {
+    color: white;
+    background-color: #124076;
+}
+
+
+
+/*Page sizes*/
+@media(max-width:1023px) {
+
+    /* اي شي اصغر من 1023 يتغير حجم الشاشه*/
+    header {
+        padding: 12px 20px;
+    }
+
+    .navigation {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main-content h2 {
+        font-size: 1em;
+    }
+
+    .main-content h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dropdown-content {
+        width: 300px;
+    }
+
+    .dropdown-content a {
+        font-size: 14px;
+    }
+
+    section.body {
+        padding: 100px 15px;
+    }
+
+    section.body h1 {
+        font-size: 2.5em;
+    }
+
+    .button a {
+        font-size: 1em;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:600px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main-content h2 {
+        font-size: 0.8m;
+    }
+
+    .main-content h3 {
+        font-size: 1.4em;
+    }
+
+    .dropdown-content {
+        width: 200px;
+    }
+
+    .dropdown-content a {
+        font-size: 12px;
+    }
+
+    .button a {
+        font-size: 1em;
+        align-items: center;
+    }
+}
+
+@media (max-width) {
+    body {
+        font-size: 10px;
+    }
+
+    .main-content h2 {
+        font-size: 0.6em;
+    }
+}
+
+h4 {
+    text-align: left;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 250px;
+    padding-bottom: 0%;
+}
+#label1{
+    color: #124076;
+    font-size: 2.2em;
+    font-weight: 800;
+}
+input {
+    font-size: 1rem;
+    width: 700px;
+}

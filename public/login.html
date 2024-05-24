@@ -1,0 +1,99 @@
+<!DOCTYPE html><!---->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="10s">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>my website</title>
+</head>
+
+<body>
+    <header>
+        <a href="#main" class="logo">CS.guide</a><!--هنا نضع اسم او لوقو موقعنا -->
+
+
+        <nav class="navigation">
+            <ul class="icons">
+               
+                <li class="dropdown">
+                    <a href="javascript:void(0)">
+                        <ul>
+                            <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#courses">
+                            <h3>Courses</h3>
+                        </a>
+                        <a href="Core courses.html">
+                            <ul>
+                                <h4>Core courses</h4>
+                            </ul>
+                        </a>
+
+
+                        <a href="General courses.html">
+                            <h4>General courses</h4>
+                        </a>
+
+                        <a href="Elective courses.html">
+                            <h4>Elective courses</h4>
+                        </a>
+                        <a href="#Resources">
+                            <h3>Resources</h3>
+                        </a>
+                        <a
+                            href="https://sso.imamu.edu.sa/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&TARGET=https%3A%2F%2Fbstss.imamu.edu.sa%2FStudentSelfService%2Flogin%2Fcas&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&tenantDomain=carbon.super&sessionDataKey=ee8f83ce-31bd-4a7c-b4dc-048d6e01b784&relyingParty=StudentSelfService_PROD&type=cas&sp=StudentSelfService_PROD&isSaaSApp=false&authenticators=BasicAuthenticator%3ALOCAL">
+                            <ul>
+                                <h4>Self service system (Banner)</h4>
+                            </ul>
+                        </a>
+                        <a href="https://students.imamu.edu.sa/">
+                            <ul>
+                                <h4>Support services</h4>
+                            </ul>
+                        </a>
+
+                        <a href="#Services">
+                            <h3>Services</h3>
+                        </a>
+                        <a href="#Calculate">
+                            <ul>
+                                <h4>Calculate GPA</h4>
+                            </ul>
+                        </a>
+                        <a href="https://www.sh3bh.com/">
+                            <ul>
+                                <h4>Contact with colleges</h4>
+                            </ul>
+                        </a>
+                        <a href="https://chat.whatsapp.com/K8ZAT2ERiR8DWddZZRhV69">
+                            <ul>
+                                <h4>Announcement</h4>
+                            </ul>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <li><a href="#main"><i class="fa-solid fa-home"></i></a> </li>
+            <li><a href="search.html"><i class="fa-solid fa-search"></i></a></uli>
+                </ul>
+        </nav>
+    </header>
+    <br><br><br><br>
+    <h2>Login</h2>
+    <form action="/login" method="POST">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
